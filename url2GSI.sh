@@ -109,7 +109,7 @@ LEAVE()
 {
     UMOUNT "$PROJECT_DIR/working"
     rm -rf "$PROJECT_DIR/working"
-    exit 1
+    exit 0
 }
 
 echo "Updating tools..."
